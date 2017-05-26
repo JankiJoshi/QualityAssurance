@@ -1,0 +1,132 @@
+<!--
+		Janki Joshi
+		Assignment 2
+		Date: 11/02/2016
+-->
+
+<!--HTML tag, the starting of the program-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--<meta charset="UTF-8">-->
+    <title>Janki-Assignment4</title>
+
+    <!--jQuery-->
+    <script src="js/lib/jquery-2.1.4.js"></script>
+
+    <!--jQuery Mobile-->
+    <script src="js/lib/jquery.mobile-1.4.5.js"></script>
+
+    <!--Validations JavaScript-->
+    <script src="js/lib/jquery.validate.js"></script>
+
+    <!--jQuery Mobile Style-->
+    <link rel="stylesheet" type="text/css" href="css/lib/jquery.mobile-1.4.5.css">
+
+
+    <!--<script src="_lib/js/JJdatabase.js"></script>-->
+    <script src="js/formValidation.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/DatabaseTransactions.js"></script>
+    <!--<script src="_lib/js/JJutil.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
+</head>
+
+<body>
+
+<div id="home" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1>JJ Feedback A2</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#home" data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
+                <li><a href="#newCar" data-icon="home" class="ui-btn-a">New</a></li>
+                <li><a href="#searchCar" data-icon="plus" class="ui-btn-a">Search</a></li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content">
+        <h1>Janki Joshi</h1>
+    </section>
+</div>
+
+<div id="newCar" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1></h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#home" data-icon="home" class="ui-btn-a">Home</a></li>
+                <li><a href="#newCar" data-icon="home" class="ui-btn-active ui-state-persist">New</a></li>
+                <li><a href="#searchCar" data-icon="plus" class="ui-btn-a">Search</a></li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content">
+        <form id="myForm" name="myForm" method="post">
+            <h2>Enter Seller's Information</h2>
+            <label for="fullName">Name</label>
+            <input type="text" name="fullName" id="fullName" autofocus data-clear-btn="true">
+
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" data-clear-btn="true">
+
+            <label for="city">City</label>
+            <input type="text" name="city" id="city"  data-clear-btn="true">
+
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email"  data-clear-btn="true">
+
+            <label for="phNumber">Phone Number</label>
+            <input type="text" name="phNumber" id="phNumber" data-clear-btn="true">
+
+            <label for="make">Make</label>
+            <input type="text" name="make" id="make"  data-clear-btn="true">
+
+            <label for="model">Model</label>
+            <input type="text" name="model" id="model" data-clear-btn="true">
+
+            <label for="year">Year</label>
+            <input type="text" name="year" id="year" data-clear-btn="true">
+
+            <button type="button" id="btnSave" name="btnSave" data-iconpos="left" data-inline="true">Submit</button>
+        </form>
+    </section>
+</div>
+
+<div id="displayInfo" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1></h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#home" data-icon="home" class="ui-btn-a">Home</a></li>
+                <li><a href="#newCar" data-icon="home" class="ui-btn-active ui-state-persist">New</a></li>
+                <li><a href="#searchCar" data-icon="plus" class="ui-btn-a">Search</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="displayResult" data-role="content"></section>
+</div>
+
+<div id="searchCar" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1>JJ Feedback A2</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#home" data-icon="home" class="ui-btn-a">Home</a></li>
+                <li><a href="#newCar" data-icon="home" class="ui-btn-a">New</a></li>
+                <li><a href="#searchCar" data-icon="plus" class="ui-btn-active ui-state-persist">Search</a></li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content" id="listView">
+
+    </section>
+</div>
+
+</body>
+</html>
+
+

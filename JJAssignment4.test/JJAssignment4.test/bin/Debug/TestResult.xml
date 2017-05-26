@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\JJAssignment4.test\JJAssignment4.test\bin\Debug\JJAssignment4.test.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-04-05" time="13:15:15">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="2A308-C01" user="jjoshi6191" user-domain="CONESTOGAC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\JJAssignment4.test\JJAssignment4.test\bin\Debug\JJAssignment4.test.dll" executed="True" result="Success" success="True" time="12.892" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="JJAssignment4" executed="True" result="Success" success="True" time="12.886" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="12.885" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="UnitTest1" executed="True" result="Success" success="True" time="12.884" asserts="0">
+                <results>
+                  <test-case name="JJAssignment4.test.UnitTest1.NewCarAdded_CorrectInput_ExpectedTitleDisplayed" executed="True" result="Success" success="True" time="3.245" asserts="0" />
+                  <test-case name="JJAssignment4.test.UnitTest1.SearchCar_EmptyDatabase_ExpectedTitleDisplayed" executed="True" result="Success" success="True" time="2.262" asserts="0" />
+                  <test-case name="JJAssignment4.test.UnitTest1.TestEmailValidation_IncorrectEmailInput_EmailErrorDisplayed" executed="True" result="Success" success="True" time="2.462" asserts="0" />
+                  <test-case name="JJAssignment4.test.UnitTest1.TestPhoneValidation_IncorrectPhoneInput_PhoneErrorDisplayed" executed="True" result="Success" success="True" time="2.534" asserts="0" />
+                  <test-case name="JJAssignment4.test.UnitTest1.TestValidations_EmptyInputs_ErrorDisplayed" executed="True" result="Success" success="True" time="2.354" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
